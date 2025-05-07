@@ -33,11 +33,30 @@ The script performs **per-kernel analysis**, **per-plate summaries**, and genera
 ## ⚙️ Setup Instructions
 
 1. **Environment Requirements:**
-   - Python 3.7+
-   - Required packages:
-     ```bash
-     pip install numpy opencv-python pandas matplotlib ultralytics
-     ```
+- Create a conda environment: 
+``` 
+conda create -n cvml python=3.12
+```
+- Install pytorch:   https://pytorch.org/get-started/locally/ - I installed in Macbook pro M3.
+```
+pip3 install torch torchvision torchaudio
+```
+- Install jupyterlab: 
+```
+pip install jupyterlab
+```
+- Install opencv: 
+```
+pip install opencv-contrib-python
+```
+- Install ultralytics: 
+```
+pip install ultralytics
+```
+- Install roboflow: 
+```
+pip install roboflow==1.1.48
+```
 
 2. **Input Preparation:**
    - Place all `.jpg` or `.jpeg` plate images in the `input_images/` folder.
