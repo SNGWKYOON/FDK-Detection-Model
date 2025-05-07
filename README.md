@@ -1,6 +1,8 @@
 
 # 📘 README: Wheat Kernel FDK Detection and Analysis
 
+![Example Input Data](input_images/example1.jpg)
+
 ## 🔍 Overview
 
 This project provides a complete pipeline to **automatically detect**, **classify**, and **analyze wheat kernels** from image plates using a pre-trained YOLOv8 model. It is tailored to identify and quantify kernel traits such as:
@@ -121,5 +123,7 @@ Use these plots to understand phenotypic variability and detect outliers.
 ## 📞 Contact
 
 Prof. Jessica Rutkoski | jrut@illinois.edu
+
 Prof, Sunoj Shajahan | sunoj@illinois.edu
+
 Seung Wook Yoon | alexyoon9941@gmail.com, swyoon3@illinois.edu
