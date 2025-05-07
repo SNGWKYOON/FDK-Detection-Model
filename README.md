@@ -1,5 +1,5 @@
 
-# 📘 README: Wheat Kernel FDK Detection and Analysis
+# 📘 Wheat Kernel FDK Detection and Analysis
 
 ![Example Input Data](input_images/example1.jpg)
 
