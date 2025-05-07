@@ -22,7 +22,8 @@ The script performs **per-kernel analysis**, **per-plate summaries**, and genera
 │   ├── individual_kernels_csv/ # CSV files for each plate (per-kernel data)
 │   └── plate_level_summary.csv # Final summary: one row per plate
 ├── wheat_kernel_FDK_Detector.pt  # Trained YOLOv8 model
-└── main_script.py            # Full pipeline script (this code)
+├── FDK Detection - Poster - Final.pdf  # Poster
+└── README.md            # Full pipeline script (this code)
 ```
 
 ---
@@ -72,8 +73,8 @@ The script performs **per-kernel analysis**, **per-plate summaries**, and genera
 
 8. **Statistical Histograms:**
    - Plots generated:
-     - % of bleached kernels (intensity > 180)
-     - % of rough kernels (std > 65)
+     - % of bleached kernels
+     - % of rough kernels
      - % of non-crease kernels
      - Total kernel count per plate
 
@@ -84,12 +85,12 @@ The script performs **per-kernel analysis**, **per-plate summaries**, and genera
 ### Per-Kernel CSV (one per plate):
 | Plate_Name | Kernel_ID | Average_Intensity | Std_Intensity |
 |------------|-----------|-------------------|----------------|
-| plate_001  | 1         | 135               | 48             |
+| example1   | 1         | 135               | 48             |
 
 ### Summary CSV:
 | Plate_Name | Average_Intensity | Std_Intensity | Total_Kernels |
 |------------|-------------------|----------------|----------------|
-| plate_001  | 132.5             | 47.3           | 18             |
+| example1   | 132.5             | 47.3           | 104            |
 
 ---
 
@@ -117,14 +118,8 @@ Use these plots to understand phenotypic variability and detect outliers.
 
 ---
 
-## ✏️ Notes
-
-- The model should be trained to detect kernel boundaries accurately.
-- Ensure consistent lighting conditions for reliable color analysis.
-- This pipeline supports batch processing for rapid high-throughput screening.
-
----
-
 ## 📞 Contact
 
-If you need to adapt this tool for new traits, input types, or model architectures, feel free to reach out or fork the repository.
+Prof. Jessica Rutkoski | jrut@illinois.edu
+Prof, Sunoj Shajahan | sunoj@illinois.edu
+Seung Wook Yoon | alexyoon9941@gmail.com, swyoon3@illinois.edu
