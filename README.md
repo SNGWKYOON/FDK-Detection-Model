@@ -1,7 +1,7 @@
 
 # 📘 Wheat Kernel FDK Detection and Analysis
 
-![Example Input Data](input_images/example1.jpg)
+![Poster](input_images/example1.jpg)
 
 ## 🔍 Overview
 
